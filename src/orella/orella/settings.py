@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    # 'rest_framework.authtoken',
     'API',
     'corsheaders'
 ]
@@ -54,10 +53,6 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
-CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/WebGrabApi/',
-    'localhost:8080/WebGrabApi/',
-)
 
 ROOT_URLCONF = 'orella.urls'
 
